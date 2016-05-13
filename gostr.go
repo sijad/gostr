@@ -76,7 +76,7 @@ func ContainsAll(s, chars string, caseSensitive bool) bool {
 	}
 
 	for _, c := range chars {
-		if !Contains(s, string(c), false) {
+		if !strings.Contains(s, string(c)) {
 			return false
 		}
 	}
