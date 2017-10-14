@@ -5,5 +5,5 @@ Useful strings utilities for GO, heavily inspried by [Stringy](https://github.co
 ## Install
 
 ```
-go get github/sijad/gostr
+go get github.com/sijad/gostr
 ```
